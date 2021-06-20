@@ -1,0 +1,49 @@
+body {
+    background-color:#ffba08;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pizza {
+    /* box-model */
+    border: 1px solid #E9D8A6 ;
+    border-radius: 0.3cm;
+    padding: 0.2cm;
+    margin: 0.2cm;
+}
+
+.small_pizza {
+    background-color:#80B918;
+    flex: 0.9;
+
+}
+
+.medium_pizza {
+    background-color:#CA6702;
+    flex: 1;
+}
+
+.large_pizza {
+    background-color:#55A630;
+    flex: 1.5;
+}
+
+.contact_us {
+    background-color:#E85D04;
+}
+
+@media (min-width: 760px) {
+    body {
+        background-color:#65dd6bde;
+    }
+
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color:#ebc04bde;
+    }   
+.pizzas {
+    display: flex;
+
+}
+}
